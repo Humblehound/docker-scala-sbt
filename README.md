@@ -1,9 +1,9 @@
 # Docker, Scala and sbt Dockerfile
 
-This repository contains **Dockerfile** of
-[Docker](https://www.docker.com/) 
-[Java 8](https://openjdk.java.net/install/)
-[Scala](http://www.scala-lang.org) and [sbt](http://www.scala-sbt.org).
+This repository contains **Dockerfile** with
+[Docker](https://www.docker.com/),
+[Java 8](https://openjdk.java.net/install/),
+,[Scala](http://www.scala-lang.org) and [sbt](http://www.scala-sbt.org).
 
 ## Base Docker Image ##
 
@@ -17,7 +17,7 @@ I have not found a docker image that would have all of `java`, `scala`, `sbt` an
 So far I just published an image for my current needs with the tag `8u232_1.3.6_2.12.10`, that indicates `java`, `sbt` and `scala` versions respectfully. 
 Please publish an MR or open an issue if you'd like a different configuration.  
 
-##Example usage
+##Example usage with Gitlab
 
 sbt project configuration:
 
